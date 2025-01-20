@@ -10,7 +10,7 @@
 		var pases = (number == 1) ? " pase" : " pases";
 	document.getElementById("numInv").innerHTML = "Esta invitación es valida por "+ number+ pases;
 	
-	var dateDue = new Date("2024-09-01");
+	var dateDue = new Date("2025-05-01");
 	var today = new Date();
 
 	if(today> dateDue){
